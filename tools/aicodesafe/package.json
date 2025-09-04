@@ -1,0 +1,19 @@
+{
+  "name": "aicodesafe",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Prompt Guard for Claude Code CLI hooks: scan, redact, block.",
+  "bin": {
+    "aicodesafe": "bin/aicodesafe.js",
+    "aicodesafe-hook-user-prompt": "bin/hook-user-prompt.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "scan": "node bin/aicodesafe.js scan",
+    "hook:user-prompt": "node bin/hook-user-prompt.js"
+  }
+}
+
